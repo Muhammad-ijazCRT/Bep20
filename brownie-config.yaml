@@ -1,0 +1,18 @@
+compiler:
+  solc:
+    version: "0.8.25"
+    remappings:
+      - "@openzeppelin=node_modules/@openzeppelin"
+
+networks:
+  binance:
+    host: https://bsc-dataseed.binance.org/
+    chainid: 56
+    explorer: https://api.bscscan.com/5XVCBVEV3KARBMARA1578H618VV6G738FI
+  binance-test:
+    host: https://data-seed-prebsc-1-s1.binance.org:8545/
+    chainid: 97
+    explorer: https://api-testnet.bscscan.com/CPMG3QE9FQNKQYYBKWTKHPT2591ZSEFQMI
+
+
+
